@@ -1,0 +1,7 @@
+requests
+pytesseract
+pdf2image
+pymongo
+PyMuPDF
+langdetect
+pillow
