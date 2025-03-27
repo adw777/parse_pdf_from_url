@@ -10,7 +10,7 @@ from concurrent.futures import ThreadPoolExecutor
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
 # Import our parsing modules
-from OCR_parsing import download_pdf, pdf_to_text
+from OCR_parsing_hin import download_pdf, pdf_to_text
 from parsingText2 import extract_text_from_pdf, process_pdf
 
 # Set up logging
@@ -25,11 +25,11 @@ logging.basicConfig(
 logger = logging.getLogger("extract_pipeline")
 
 # MongoDB Configuration
-MONGO_URI = "mongodb://localhost:27017/"
+MONGO_URI = "mongodb+srv://doadmin:67K98DEUBAY0T214@lwai-mongo-c557243a.mongo.ondigitalocean.com/stale?authSource=admin&tls=true"
 DB_NAME = "judgements"
-COLLECTION_NAME = "SC"
-ENGLISH_URL_FIELD = "Original Judgment"
-HINDI_URL_FIELD = "Translated Judgment"
+COLLECTION_NAME = "punjab_haryana_hc"
+ENGLISH_URL_FIELD = "Original English Version"
+HINDI_URL_FIELD = "Translated Hindi Version"
 ENGLISH_CONTENT_FIELD = "Original_Content"
 HINDI_CONTENT_FIELD = "Translated_Content"
 
