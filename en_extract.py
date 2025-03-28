@@ -26,7 +26,7 @@ logger = logging.getLogger("extract_pipeline")
 # MongoDB Configuration
 MONGO_URI = "mongodb+srv://doadmin:67K98DEUBAY0T214@lwai-mongo-c557243a.mongo.ondigitalocean.com/stale?authSource=admin&tls=true"
 DB_NAME = "judgements"
-COLLECTION_NAME = "sc2"
+COLLECTION_NAME = "sclast69"
 URL_FIELD = "Original Judgment"  # Field containing the English judgment URLs
 CONTENT_FIELD = "Original_Content"  # Field to update with extracted content
 
