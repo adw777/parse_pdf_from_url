@@ -136,5 +136,5 @@ if __name__ == '__main__':
         format='%(asctime)s - %(name)s - %(levelname)s - %(message)s'
     )
     
-    pdf_url = 'https://elegalix.allahabadhighcourt.in/elegalix/WebDownloadOriginalSCJudgmentDocument.do?SCJudgmentID=356'
+    pdf_url = 'https://elegalix.allahabadhighcourt.in/elegalix/WebDownloadOriginalHCJudgmentDocument.do?translatedJudgmentID=17150'
     main(pdf_url)

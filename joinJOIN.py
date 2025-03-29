@@ -34,5 +34,5 @@ if __name__ == "__main__":
         merge_jsonl_files(args.file1, args.file2, args.output)
 
 
-# python joinJOIN.py merged_pairssc224.json merged_pairssclast69.json merged_sc.json --type json
-# python joinJOIN.py pairssc224.jsonl pairssclast69.jsonl output.jsonl --type jsonl
+# python .py file1.json file2.json output.json --type json
+# python merge_script.py file1.jsonl file2.jsonl output.jsonl --type jsonl

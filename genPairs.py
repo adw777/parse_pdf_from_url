@@ -40,7 +40,7 @@ def extract_aligned_pairs(text_content, threshold=0.6):
         print(f"Error processing content: {e}")
         return {}
 
-def save_to_json(pairs, file_name, output_dir="PAIRS0.6sclast69"):
+def save_to_json(pairs, file_name, output_dir="PAIRS0.6punjab_harayana_hc463"):
     """
     Save the extracted pairs to a JSON file.
     
@@ -76,7 +76,7 @@ def main():
     # MongoDB connection parameters
     mongo_uri = "mongodb+srv://doadmin:67K98DEUBAY0T214@lwai-mongo-c557243a.mongo.ondigitalocean.com/stale?authSource=admin&tls=true"
     database_name = "judgements"  # Update with your database name
-    collection_name = "sclast69"
+    collection_name = "punjab_haryana_hc463"
     
     # Connect to MongoDB
     try:

@@ -114,9 +114,9 @@ def merge_json_files(input_dir, output_json_path, output_jsonl_path):
 
 def main():
     # Configuration
-    input_directory = "PAIRS0.6sclast69"  # Directory containing JSON files
-    output_json = "merged_pairssclast69.json"  # Output merged JSON file
-    output_jsonl = "pairssclast69.jsonl"  # Output JSONL file
+    input_directory = "PAIRS0.6punjab_harayana_hc463"  # Directory containing JSON files
+    output_json = "merged_pairspunjab_haryana_hc463.json"  # Output merged JSON file
+    output_jsonl = "pairspunjab_haryana_hc463.jsonl"  # Output JSONL file
     
     print(f"Starting to merge JSON files from '{input_directory}'...")
     merge_json_files(input_directory, output_json, output_jsonl)
